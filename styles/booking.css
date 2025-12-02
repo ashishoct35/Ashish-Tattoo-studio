@@ -1,0 +1,106 @@
+/* ==================== BOOKING PROCESS ==================== */
+.booking-steps {
+    counter-reset: step;
+}
+
+.booking-step {
+    position: relative;
+    padding: var(--spacing-xl);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-xl);
+    border-left: 4px solid var(--color-accent-gold);
+    transition: var(--transition-base);
+}
+
+.booking-step:hover {
+    transform: translateX(8px);
+    box-shadow: var(--shadow-md);
+}
+
+.booking-step::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    left: -20px;
+    top: var(--spacing-xl);
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--color-accent-gold), var(--color-accent-rose));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-bg-primary);
+}
+
+.booking-step h3 {
+    color: var(--color-accent-gold);
+    margin-bottom: var(--spacing-sm);
+    padding-left: var(--spacing-lg);
+}
+
+.booking-step p {
+    margin: 0;
+    padding-left: var(--spacing-lg);
+    color: var(--color-text-secondary);
+}
+
+/* ==================== INFO CARDS ==================== */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.info-card {
+    background: var(--color-bg-secondary);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.info-card h3 {
+    color: var(--color-accent-gold);
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.5rem;
+}
+
+.info-card ul {
+    list-style: none;
+}
+
+.info-card li {
+    padding: var(--spacing-sm) 0;
+    padding-left: var(--spacing-lg);
+    color: var(--color-text-secondary);
+    position: relative;
+}
+
+.info-card li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-gold);
+    font-weight: 700;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+    .booking-step {
+        padding-left: var(--spacing-xl);
+    }
+
+    .booking-step::before {
+        left: -15px;
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+}

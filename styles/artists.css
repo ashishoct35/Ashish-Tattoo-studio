@@ -1,0 +1,105 @@
+/* ==================== ARTISTS SECTION ==================== */
+.artists-section {
+    padding: var(--spacing-3xl) 0;
+}
+
+.artist-profile {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: var(--spacing-3xl);
+    margin-bottom: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.artist-profile:last-child {
+    border-bottom: none;
+}
+
+.artist-main-image {
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    aspect-ratio: 1;
+    border: 2px solid rgba(212, 175, 55, 0.2);
+}
+
+.artist-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artist-details h2 {
+    color: var(--color-accent-gold);
+    margin-bottom: var(--spacing-xs);
+}
+
+.artist-specialty {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.artist-experience {
+    display: inline-block;
+    padding: var(--spacing-xs) var(--spacing-md);
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid var(--color-accent-gold);
+    border-radius: var(--radius-sm);
+    color: var(--color-accent-gold);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-lg);
+}
+
+.artist-bio {
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-lg);
+}
+
+.artist-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+}
+
+.artist-gallery-item {
+    aspect-ratio: 1;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.artist-gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-glow);
+}
+
+.artist-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 968px) {
+    .artist-profile {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .artist-main-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .artist-gallery {
+        grid-template-columns: 1fr;
+    }
+}

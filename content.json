@@ -1,0 +1,340 @@
+{
+  "studioName": "Ashish Tattoo Studio",
+  "logo": "assets/images/logo.png",
+  "tagline": "Where Art Meets Skin",
+  "hero": {
+    "title": "Ink That Tells Your Story",
+    "subtitle": "Premium tattoos crafted by award-winning artists in the heart of the city",
+    "backgroundImage": "assets/images/hero-bg.jpg",
+    "cta": "View Portfolio"
+  },
+  "artists": [
+    {
+      "name": "Rajesh Shrestha",
+      "speciality": "Black & Grey Realism",
+      "experience": "10 Years",
+      "bio": "Master of photorealistic portraits and detailed black & grey work. Specializes in creating lifelike pieces that capture emotion and depth.",
+      "photo": "assets/images/artist1.jpg",
+      "gallery": [
+        "assets/images/portfolio/realism1.jpg",
+        "assets/images/portfolio/realism2.jpg",
+        "assets/images/portfolio/portrait1.jpg"
+      ]
+    },
+    {
+      "name": "Priya Tamang",
+      "speciality": "Minimal & Fine Line",
+      "experience": "7 Years",
+      "bio": "Expert in delicate, minimalist designs and intricate fine line work. Creates elegant, timeless pieces with precision and grace.",
+      "photo": "assets/images/artist2.jpg",
+      "gallery": [
+        "assets/images/portfolio/minimal1.jpg",
+        "assets/images/portfolio/minimal2.jpg",
+        "assets/images/portfolio/minimal3.jpg"
+      ]
+    },
+    {
+      "name": "Ashish Karki",
+      "speciality": "Traditional & Neo-Traditional",
+      "experience": "12 Years",
+      "bio": "Founder and head artist. Passionate about bold traditional tattoos with a modern twist. Known for vibrant colors and strong imagery.",
+      "photo": "assets/images/artist3.jpg",
+      "gallery": [
+        "assets/images/portfolio/traditional1.jpg",
+        "assets/images/portfolio/traditional2.jpg",
+        "assets/images/portfolio/custom1.jpg"
+      ]
+    },
+    {
+      "name": "Suman Rai",
+      "speciality": "Mandala & Geometric",
+      "experience": "8 Years",
+      "bio": "Specialist in sacred geometry and mandala designs. Creates intricate, symmetrical patterns that are both spiritual and visually stunning.",
+      "photo": "assets/images/artist4.jpg",
+      "gallery": [
+        "assets/images/portfolio/mandala1.jpg",
+        "assets/images/portfolio/mandala2.jpg",
+        "assets/images/portfolio/mandala3.jpg"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "name": "Custom Tattoo Designs",
+      "description": "Work one-on-one with our artists to create a unique piece that's completely yours. From concept to final design, we bring your vision to life.",
+      "icon": "🎨"
+    },
+    {
+      "name": "Realism Tattoos",
+      "description": "Photorealistic portraits, nature scenes, and detailed black & grey work that looks like it could walk off your skin.",
+      "icon": "📸"
+    },
+    {
+      "name": "Minimal & Fine Line Tattoos",
+      "description": "Delicate, elegant designs with clean lines and subtle details. Perfect for those seeking understated sophistication.",
+      "icon": "✏️"
+    },
+    {
+      "name": "Cover-Up Tattoos",
+      "description": "Transform old or unwanted tattoos into beautiful new artwork. Our experienced artists specialize in creative cover-up solutions.",
+      "icon": "🔄"
+    },
+    {
+      "name": "Mandala & Geometric Tattoos",
+      "description": "Sacred geometry, intricate mandalas, and precise geometric patterns. Spiritually significant and visually mesmerizing.",
+      "icon": "🔯"
+    },
+    {
+      "name": "Traditional Tattoos",
+      "description": "Bold, timeless designs with strong outlines and vibrant colors. Classic American and Japanese traditional styles.",
+      "icon": "⚡"
+    },
+    {
+      "name": "Aftercare Consultation",
+      "description": "Comprehensive aftercare guidance to ensure your tattoo heals perfectly and maintains its vibrancy for years to come.",
+      "icon": "💊"
+    },
+    {
+      "name": "Touch-Up Services",
+      "description": "Free touch-ups within 6 months to keep your tattoo looking fresh and vibrant. We stand behind our work.",
+      "icon": "✨"
+    }
+  ],
+  "pricing": {
+    "hourlyRate": "NPR 5,000",
+    "minimumCharge": "NPR 3,000",
+    "fullDaySession": "NPR 30,000",
+    "halfDaySession": "NPR 18,000",
+    "consultationFee": "Free",
+    "touchUpPolicy": "Free within 6 months",
+    "depositRequired": "NPR 2,000 (non-refundable)",
+    "note": "Final price depends on size, complexity, placement, and artist. Book a free consultation for accurate quote."
+  },
+  "portfolioCategories": [
+    {
+      "name": "Minimal",
+      "slug": "minimal",
+      "images": [
+        "assets/images/portfolio/minimal1.jpg",
+        "assets/images/portfolio/minimal2.jpg",
+        "assets/images/portfolio/minimal3.jpg",
+        "assets/images/portfolio/minimal4.jpg",
+        "assets/images/portfolio/minimal5.jpg",
+        "assets/images/portfolio/minimal6.jpg"
+      ]
+    },
+    {
+      "name": "Realism",
+      "slug": "realism",
+      "images": [
+        "assets/images/portfolio/realism1.jpg",
+        "assets/images/portfolio/realism2.jpg",
+        "assets/images/portfolio/realism3.jpg",
+        "assets/images/portfolio/realism4.jpg",
+        "assets/images/portfolio/realism5.jpg",
+        "assets/images/portfolio/realism6.jpg"
+      ]
+    },
+    {
+      "name": "Portrait",
+      "slug": "portrait",
+      "images": [
+        "assets/images/portfolio/portrait1.jpg",
+        "assets/images/portfolio/portrait2.jpg",
+        "assets/images/portfolio/portrait3.jpg",
+        "assets/images/portfolio/portrait4.jpg",
+        "assets/images/portfolio/portrait5.jpg",
+        "assets/images/portfolio/portrait6.jpg"
+      ]
+    },
+    {
+      "name": "Traditional",
+      "slug": "traditional",
+      "images": [
+        "assets/images/portfolio/traditional1.jpg",
+        "assets/images/portfolio/traditional2.jpg",
+        "assets/images/portfolio/traditional3.jpg",
+        "assets/images/portfolio/traditional4.jpg",
+        "assets/images/portfolio/traditional5.jpg",
+        "assets/images/portfolio/traditional6.jpg"
+      ]
+    },
+    {
+      "name": "Mandala",
+      "slug": "mandala",
+      "images": [
+        "assets/images/portfolio/mandala1.jpg",
+        "assets/images/portfolio/mandala2.jpg",
+        "assets/images/portfolio/mandala3.jpg",
+        "assets/images/portfolio/mandala4.jpg",
+        "assets/images/portfolio/mandala5.jpg",
+        "assets/images/portfolio/mandala6.jpg"
+      ]
+    },
+    {
+      "name": "Custom",
+      "slug": "custom",
+      "images": [
+        "assets/images/portfolio/custom1.jpg",
+        "assets/images/portfolio/custom2.jpg",
+        "assets/images/portfolio/custom3.jpg",
+        "assets/images/portfolio/custom4.jpg",
+        "assets/images/portfolio/custom5.jpg",
+        "assets/images/portfolio/custom6.jpg"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does getting a tattoo hurt?",
+      "answer": "Pain levels vary based on placement, size, and individual pain tolerance. Areas with more muscle and fat typically hurt less than bony areas. Most clients describe it as manageable discomfort rather than severe pain. We take breaks as needed and work at your pace."
+    },
+    {
+      "question": "How long does a tattoo session take?",
+      "answer": "Small tattoos (2-3 inches) take 1-2 hours. Medium pieces (4-6 inches) take 2-4 hours. Large tattoos or detailed work may require multiple sessions of 4-8 hours each. We'll discuss timeline during your consultation."
+    },
+    {
+      "question": "How do I prepare for my tattoo appointment?",
+      "answer": "Get a good night's sleep, eat a full meal beforehand, stay hydrated, avoid alcohol 24 hours before, wear comfortable clothing that provides easy access to the tattoo area, and bring ID and any reference images."
+    },
+    {
+      "question": "What's the healing process like?",
+      "answer": "Initial healing takes 2-3 weeks. Keep it clean, moisturized, and out of direct sunlight. Avoid swimming, soaking, and excessive sweating. Follow our detailed aftercare instructions. Full healing and color settling takes 3-4 months."
+    },
+    {
+      "question": "Can I bring my own design?",
+      "answer": "Absolutely! We love working with client ideas. Bring reference images, sketches, or descriptions. Our artists will refine and adapt the design to work beautifully as a tattoo, considering placement, size, and technical execution."
+    },
+    {
+      "question": "Do you do cover-ups?",
+      "answer": "Yes! We specialize in transforming old or unwanted tattoos into beautiful new designs. Bring photos of your existing tattoo to your consultation and we'll discuss creative cover-up options."
+    },
+    {
+      "question": "What's your minimum age requirement?",
+      "answer": "You must be 18 years or older with valid government-issued ID. We do not tattoo minors, even with parental consent, as per our studio policy and local regulations."
+    },
+    {
+      "question": "Do you offer free touch-ups?",
+      "answer": "Yes! We offer one free touch-up within 6 months of your original appointment, provided you've followed our aftercare instructions. This ensures your tattoo looks its absolute best."
+    },
+    {
+      "question": "How much does a tattoo cost?",
+      "answer": "We charge NPR 5,000 per hour with a NPR 3,000 minimum. Final cost depends on size, complexity, placement, and artist. Book a free consultation for an accurate quote. We require a NPR 2,000 non-refundable deposit to secure your appointment."
+    },
+    {
+      "question": "What safety and hygiene standards do you follow?",
+      "answer": "We use hospital-grade sterilization, single-use needles, disposable gloves, and EPA-approved disinfectants. All equipment is autoclaved, and our studio meets all health department requirements. Your safety is our top priority."
+    },
+    {
+      "question": "Can I get a tattoo if I'm pregnant or breastfeeding?",
+      "answer": "We recommend waiting until after pregnancy and breastfeeding for safety reasons. The risk of infection and the body's changing immune system make it best to postpone your tattoo."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "Contact us via WhatsApp at +977 9851234567, call us, or message on Instagram/Facebook. We'll schedule a free consultation to discuss your ideas, provide a quote, and book your session."
+    }
+  ],
+  "about": {
+    "history": "Founded in 2013 by master artist Ashish Karki, Ashish Tattoo Studio has grown from a small passion project into one of Nepal's premier tattoo destinations. With over a decade of experience, we've crafted thousands of unique pieces for clients from around the world.",
+    "mission": "Our mission is to create exceptional, personalized tattoo art in a safe, welcoming, and professional environment. We believe every tattoo should be a masterpiece that tells your unique story.",
+    "values": [
+      "Artistic Excellence: Every piece is crafted with precision, creativity, and attention to detail",
+      "Client Collaboration: We work closely with you to bring your vision to life",
+      "Safety First: Hospital-grade sterilization and hygiene standards",
+      "Continuous Learning: Our artists regularly attend workshops and conventions to refine their craft",
+      "Integrity: Honest pricing, realistic timelines, and transparent communication"
+    ],
+    "studioPhotos": [
+      "assets/images/studio1.jpg",
+      "assets/images/studio2.jpg",
+      "assets/images/studio3.jpg"
+    ]
+  },
+  "booking": {
+    "process": [
+      {
+        "step": "1. Contact Us",
+        "description": "Reach out via WhatsApp, phone, or social media to express your interest and share initial ideas."
+      },
+      {
+        "step": "2. Free Consultation",
+        "description": "Meet with your chosen artist to discuss design, placement, size, and get an accurate quote."
+      },
+      {
+        "step": "3. Design Approval",
+        "description": "We'll create a custom design based on your consultation. Revisions are welcome until you're 100% happy."
+      },
+      {
+        "step": "4. Pay Deposit",
+        "description": "Secure your appointment with a NPR 2,000 non-refundable deposit (applied to final cost)."
+      },
+      {
+        "step": "5. Tattoo Session",
+        "description": "Arrive prepared, relaxed, and ready to get inked! We'll work at your pace with breaks as needed."
+      },
+      {
+        "step": "6. Aftercare",
+        "description": "Follow our detailed aftercare instructions. Free touch-up available within 6 months."
+      }
+    ],
+    "whatToBring": [
+      "Valid government-issued photo ID (18+ required)",
+      "Reference images or design ideas",
+      "Comfortable clothing with easy access to tattoo area",
+      "Headphones or entertainment for longer sessions",
+      "Snacks and water (we provide these too!)"
+    ],
+    "preparation": [
+      "Get 8+ hours of sleep the night before",
+      "Eat a substantial meal 1-2 hours before your appointment",
+      "Stay well-hydrated",
+      "Avoid alcohol and blood thinners for 24 hours",
+      "Moisturize the area for a few days before",
+      "Shave the area if needed (or we can do it)"
+    ]
+  },
+  "aftercare": {
+    "instructions": [
+      "Keep bandage on for 2-4 hours, then remove gently",
+      "Wash hands thoroughly before touching your tattoo",
+      "Gently wash with fragrance-free antibacterial soap and lukewarm water",
+      "Pat dry with a clean paper towel (don't rub)",
+      "Apply a thin layer of recommended ointment 2-3 times daily",
+      "Avoid submerging in water (pools, ocean, baths) for 2-3 weeks",
+      "No direct sunlight or tanning for 3-4 weeks",
+      "Don't pick at scabs or peeling skin",
+      "Wear loose, breathable clothing over the tattoo",
+      "Avoid intense exercise that causes excessive sweating for 3-5 days"
+    ],
+    "products": [
+      "Fragrance-free antibacterial soap (Dial, Cetaphil)",
+      "Aquaphor or Tattoo Goo (first 3-5 days)",
+      "Fragrance-free lotion (Lubriderm, Eucerin) after initial healing",
+      "SPF 50+ sunscreen for long-term care"
+    ],
+    "warning": "Contact us immediately if you notice excessive redness, swelling, pus, or fever - these may indicate infection."
+  },
+  "contact": {
+    "phone": "+977 9851234567",
+    "email": "info@ashishtattoo.com",
+    "facebook": "https://facebook.com/ashishtattoo",
+    "instagram": "https://instagram.com/ashishtattoo",
+    "whatsapp": "+977 9851234567",
+    "location": "Thamel, Kathmandu, Nepal",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.0!2d85.31!3d27.71!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQyJzM2LjAiTiA4NcKwMTgnMzYuMCJF!5e0!3m2!1sen!2snp!4v1234567890",
+    "hours": {
+      "weekdays": "11:00 AM - 8:00 PM",
+      "saturday": "11:00 AM - 8:00 PM",
+      "sunday": "Closed"
+    }
+  },
+  "socialProof": {
+    "yearsInBusiness": "10+",
+    "happyClients": "5000+",
+    "artistExperience": "40+",
+    "awards": [
+      "Best Tattoo Studio - Kathmandu 2022",
+      "People's Choice Award - Nepal Tattoo Expo 2021"
+    ]
+  }
+}
